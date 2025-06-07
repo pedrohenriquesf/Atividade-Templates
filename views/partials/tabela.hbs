@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each usuarios}}
+      <tr>
+        <td>{{this.nome}}</td>
+        <td>{{this.email}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
